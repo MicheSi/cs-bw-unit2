@@ -27,7 +27,6 @@ class MyQueue:
         """
         Initialize your data structure here.
         """
-        self.size = 0
         self.storage = []
     
     def __len__(self):
