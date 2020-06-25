@@ -54,7 +54,7 @@ class Solution:
                 k = ''
                 # while there is a stack and the last item of the stack is a number
                 while stack and stack[-1].isdigit():
-                    # add that to k
+                    # remove number and assign to k
                     k = stack.pop() + k
                 
                 # multiply k with decoded & add to stack

@@ -22,7 +22,7 @@ class Solution:
             # if there is a next node, use recursion to check through the other nodes
             if l1.next:
                 return ListNode(l1.val, self.mergeTwoLists(l1.next, l2))
-                # no more nodes to check, so return the linked list
+                # no more nodes to check, so return that node followed by 2nd ll
             else:
                 return ListNode(l1.val, l2)
         # if linked list doesn't exist, return the other one
