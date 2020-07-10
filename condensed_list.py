@@ -40,3 +40,8 @@ def condense(head):
         cur = prev.next
 
     return head
+
+'''
+Time complexity is O(n)
+Space complexity is O(n)
+'''

@@ -48,3 +48,8 @@ def reverseInParentheses(s):
     
     # join the characters in the stack back into a string
     return ''.join(stack)
+
+'''
+Time complexity is O(n)
+Space complexity is O(n)
+'''

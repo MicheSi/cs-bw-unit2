@@ -22,3 +22,8 @@ def makeAnagrams(a, b):
 
     # this is how many characters remain
     return len(a) + len(b)
+
+'''
+Time complexity is O(n)
+Space complexity is O(n)
+'''
