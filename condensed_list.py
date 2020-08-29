@@ -13,12 +13,18 @@
 #
 #
 
-def condense(head):
-    # Write your code here
-    # traverse through linked list
+# traverse through linked list
     # store nodes in visited
     # if value already in visited, remove it
     # return new linked list
+
+# use a set so that it doesn't store duplicate values
+    # loop through ll and add nodes to the set
+    # use pointers to keep track of nodes
+    # return new list with current head
+
+def condense(head):
+    # Write your code here
 
     prev = None
     cur = head
@@ -42,6 +48,6 @@ def condense(head):
     return head
 
 '''
-Time complexity is O(n)
-Space complexity is O(n)
+Time complexity is O(n) - will only take as much time as n number of nodes
+Space complexity is O(n) - takes up as much space as the number of nodes in the linked list
 '''
